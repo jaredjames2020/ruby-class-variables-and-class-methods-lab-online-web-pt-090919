@@ -46,7 +46,7 @@ class Song
     @@genres.each do |key|
       genre_count[key] += 1
     end
-    genre_count.each {do |genre,num|}
+    genre_count.each {|genre,num|}
       binding.pry
 
 # # iterate over the array, counting duplicate entries
