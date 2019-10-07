@@ -47,21 +47,6 @@ class Song
       genre_count[key] += 1
     end
     genre_count.each {|genre,num|}
-      binding.pry
-
-# # iterate over the array, counting duplicate entries
-# a.each do |v|
-#   b[v] += 1
-# end
-
-# b.each do |k, v|
-#   puts "#{k} appears #{v} times"
-# end
-
-#     binding.pry
-# #     end
-    
-    #genre_count = {genre[i] => #of songs}
   end
   
   def self.artists_count
