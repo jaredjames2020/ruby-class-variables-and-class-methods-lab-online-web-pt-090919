@@ -52,7 +52,7 @@ class Song
 
 #   puts "#{k} appears #{v} times"
 # end
-#       binding.pry
+     binding.pry
 #     end
     
     #genre_count = {genre[i] => #of songs}
