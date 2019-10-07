@@ -54,7 +54,7 @@ class Song
     @@artists.each do |key|
       artists_count[key] += 1
     end
-    artists_count.each {artist,num}
+    artists_count.each {|artist,num|}
   end
   
 end
