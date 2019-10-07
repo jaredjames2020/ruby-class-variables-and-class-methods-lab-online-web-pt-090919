@@ -42,6 +42,10 @@ class Song
 
   
   def self.genre_count
+    @@genres.each do |k,v|
+      binding.pry
+    end
+    
     #genre_count = {genre[i] => #of songs}
   end
   
