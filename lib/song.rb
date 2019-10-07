@@ -1,7 +1,7 @@
 require 'pry'
 class Song
   attr_accessor :name, :artist, :genre
-  attr_reader :count, :genres, :artists, :genre_count, :artists_count  
+  attr_reader :count, :genres, :artists, :genre_count, :artist_count  
 
   @@count = 0 
   @@genres = []
@@ -49,12 +49,12 @@ class Song
     genre_count.each {|genre,num|}
   end
   
-  def self.artists_count
-    artists_count = Hash.new(0)
+  def self.artist_count
+    artist_count = Hash.new(0)
     @@artists.each do |key|
-      artists_count[key] += 1
+      artist_count[key] += 1
     end
-    artists_count.each {|artist,num|}
+    artist_count.each {|artist,num|}
   end
   
 end
